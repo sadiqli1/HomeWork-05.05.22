@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container .card{
+    margin-top: 100px;
+    width: 400px;
+    height: min-content;
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input {
+    width: 65%;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #e3e3e3;
+}
+
+#add{
+    width: 30%;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#random{
+    margin-left: 35%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table{
+    margin-left: 10%;
+    margin-top: 15px;
+    width: 80%;
+    border: 1px solid #666;
+    border-collapse: collapse;
+    text-align: center;
+    color: #666;
+}
+
+td, th{
+    border: 1px solid #e3e3e3;
+    padding: 5px;
+}
